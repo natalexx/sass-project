@@ -1,0 +1,46 @@
+
+.row {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  *zoom: 1; }
+  .row:before, .row:after {
+    content: " ";
+    display: table; }
+  .row:after {
+    clear: both; }
+
+.column {
+  float: left;
+  margin-right: 2%; }
+  .column.two-third {
+    width: 65%; }
+  .column.one-half {
+    width: 49%; }
+  .column.one-third {
+    width: 32%; }
+  .column:last-of-type {
+    margin-right: 0; }
+  @media (max-width: 800px) {
+    .column {
+      width: 100% !important;
+      margin-right: 0; } }
+
+
+.column h3 {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.column.two-third {
+  width: 65%;
+}
+.column.one-half {
+  width: 49%;
+}
+.column.one-third {
+  width: 32%
+}
+
+.column:last-of-type {
+  margin-right: 0;
+}

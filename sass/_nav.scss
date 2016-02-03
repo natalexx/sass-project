@@ -1,0 +1,16 @@
+
+nav {
+  margin-top: 21px; }
+  header nav {
+    float: right;
+    text-align: right; }
+    @media (max-width: 800px) {
+      header nav {
+        float: none;
+        text-align: center; } }
+  nav a {
+    margin-right: 20px;
+    font-size: 13px;
+    text-decoration: none; }
+    nav a:last-of-type {
+      margin: 0; }
